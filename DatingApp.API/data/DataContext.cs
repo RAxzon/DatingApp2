@@ -1,4 +1,5 @@
 using DatingApp.API.models;
+using DatingApp.API.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace DatingApp.API.data
@@ -9,6 +10,7 @@ namespace DatingApp.API.data
         {
         }
 
-        public DbSet<Value> Values {get; set;} 
+        public DbSet<Value> Values {get; set;}
+        public DbSet<User> Users {get; set;} 
     }
 }
